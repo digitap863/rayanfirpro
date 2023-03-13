@@ -70,7 +70,7 @@ function Home() {
                             <div
                                 class="featured-item"
                                 style={{
-                                    backgroundImage: "url(assets/images/1.jeg)",
+                                    backgroundImage: "url(assets/images/1.jpg)",
                                 }}
                             >
                                 <div class="featured-cap">
@@ -95,7 +95,7 @@ function Home() {
                             <div
                                 class="featured-item"
                                 style={{
-                                    backgroundImage: "url(assets/images/resources/2.jpeg)",
+                                    backgroundImage: "url(assets/images/2.jpg)",
                                 }}
                             >
                                 <div class="featured-cap">
@@ -120,7 +120,7 @@ function Home() {
                             <div
                                 class="featured-item"
                                 style={{
-                                    backgroundImage: "url(assets/images/resources/3.jpeg)",
+                                    backgroundImage: "url(assets/images/3.jpg)",
                                 }}
                             >
                                 <div class="featured-cap">
