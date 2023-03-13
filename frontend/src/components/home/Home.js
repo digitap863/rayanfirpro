@@ -70,7 +70,7 @@ function Home() {
                             <div
                                 class="featured-item"
                                 style={{
-                                    backgroundImage: "url(assets/images/1c085cfc-6cbf-4093-a0c9-8b09c9b84e01.jpeg)",
+                                    backgroundImage: "url(assets/images/1.jeg)",
                                 }}
                             >
                                 <div class="featured-cap">
@@ -95,7 +95,32 @@ function Home() {
                             <div
                                 class="featured-item"
                                 style={{
-                                    backgroundImage: "url(assets/images/resources/slide2.jpg)",
+                                    backgroundImage: "url(assets/images/resources/2.jpeg)",
+                                }}
+                            >
+                                <div class="featured-cap">
+                                    <span>Rescue and firefighters are great</span>
+                                    <h2>
+                                        Saved <span class="theme-clr"> 5900</span>+ Lives Protecting{" "}
+                                        <span class="theme-clr">Properties</span>
+                                    </h2>
+                                    <p>
+                                        Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
+                                    </p>
+                                    <div class="btns-grp">
+                                        <a class="theme-btn brd-rd30" href="#" title="">
+                                            Read More
+                                        </a>
+                                        <a class="wht-btn brd-rd30" href="#" title="">
+                                            Call Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="featured-item"
+                                style={{
+                                    backgroundImage: "url(assets/images/resources/3.jpeg)",
                                 }}
                             >
                                 <div class="featured-cap">
