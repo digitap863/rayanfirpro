@@ -1,0 +1,290 @@
+.page-title {
+    position: relative;
+    padding: 138px 0px 290px 0px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centred {
+    text-align: center;
+}
+.page-title .overlay-bg:before {
+    position: absolute;
+    content: '';
+    background: #2d2727;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+}
+.page-title .overlay-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.page-title:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    z-index: 1;
+}
+.page-title .pattern-layer:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 40%, 100% 0%, 100% 0%, 0% 100%, 0% 0%);
+}
+.page-title .pattern-layer:before {
+    background: #cc5e28;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.page-title .pattern-layer:after {
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 166px;
+    right: 0px;
+    bottom: -49px;
+    clip-path: polygon(0% 0%, 100% 19%, 100% 100%, 175% 100%, 0% 0%);
+}
+.page-title .pattern-layer:after {
+    background: #cc5e28;
+}
+.page-title .content-box .title {
+    position: relative;
+    margin-bottom: 11px;
+}
+.page-title .content-box .title h1 {
+    position: relative;
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 900;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen and (max-width: 767px){
+.page-title {
+    padding: 70px 0px;
+}}
+@media only screen and (max-width: 767px){
+.page-title {
+    margin-bottom: 0px;
+}}
+@media only screen and (max-width: 1200px){
+.page-title {
+    margin-bottom: 120px;
+    padding: 120px 0px;
+}}
+@media only screen and (max-width: 1200px){
+.page-title:before, .page-title:after, .page-title .pattern-layer {
+    display: none;
+}}
+@media only screen and (max-width: 1200px){
+.about-section .image-box {
+    margin-right: 0px;
+}}
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.page-title .content-box .title {
+    position: relative;
+    margin-bottom: 11px;
+}
+.page-title .content-box .title h1 {
+    position: relative;
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 900;
+}
+.page-title .content-box .bread-crumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #d9d1ce;
+    padding-right: 16px;
+    margin-right: 5px;
+}
+
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.page-title .overlay-bg:before {
+    position: absolute;
+    content: '';
+    background: #2d2727;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+}
+.page-title:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    z-index: 1;
+}
+.page-title:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: calc(50% + 1px);
+    height: 166px;
+    right: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 0%, 200% 100%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+
+/* about */
+.border-bottom {
+    border-bottom: 1px solid #ede6e6;
+}
+
+.about-section {
+    position: relative;
+    padding: 10px 0px 120px 0px;
+}.border-bottom {
+    border-bottom: 1px solid #ede6e6;
+}
+
+.about-section {
+    position: relative;
+    padding: 10px 0px 120px 0px;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+.mr-70 {
+    margin-right: 70px;
+}
+.about-section .image-box .image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.about-section .image-box .image:before {
+    position: absolute;
+    top: 0;
+    left: -80%;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .3)));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+@media only screen and (max-width: 991px){
+.about-section .image-box {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}}
+@media only screen and (max-width: 1200px){
+.about-section .image-box {
+    margin-right: 0px;
+}}
+@media only screen and (max-width: 1200px){
+.about-section .image-box {
+    margin-right: 0px;
+}}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.about-section .image-box .image img {
+    width: 100%;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.about-section .image-box .image img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 991px){
+.about-section .image-box {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}}

@@ -1,0 +1,284 @@
+.page-title {
+    position: relative;
+    padding: 138px 0px 290px 0px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.centred {
+    text-align: center;
+}
+.page-title .overlay-bg:before {
+    position: absolute;
+    content: '';
+    background: #2d2727;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+}
+.page-title .overlay-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.page-title:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    z-index: 1;
+}
+.page-title .pattern-layer:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 40%, 100% 0%, 100% 0%, 0% 100%, 0% 0%);
+}
+.page-title .pattern-layer:before {
+    background: #cc5e28;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.page-title .pattern-layer:after {
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 166px;
+    right: 0px;
+    bottom: -49px;
+    clip-path: polygon(0% 0%, 100% 19%, 100% 100%, 175% 100%, 0% 0%);
+}
+.page-title .pattern-layer:after {
+    background: #cc5e28;
+}
+.page-title .content-box .title {
+    position: relative;
+    margin-bottom: 11px;
+}
+.page-title .content-box .title h1 {
+    position: relative;
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 900;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen and (max-width: 767px){
+.page-title {
+    padding: 70px 0px;
+}}
+@media only screen and (max-width: 767px){
+.page-title {
+    margin-bottom: 0px;
+}}
+@media only screen and (max-width: 1200px){
+.page-title {
+    margin-bottom: 120px;
+    padding: 120px 0px;
+}}
+@media only screen and (max-width: 1200px){
+.page-title:before, .page-title:after, .page-title .pattern-layer {
+    display: none;
+}}
+@media only screen and (max-width: 1200px){
+.about-section .image-box {
+    margin-right: 0px;
+}}
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.page-title .content-box .title {
+    position: relative;
+    margin-bottom: 11px;
+}
+.page-title .content-box .title h1 {
+    position: relative;
+    font-size: 60px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 900;
+}
+.page-title .content-box .bread-crumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #d9d1ce;
+    padding-right: 16px;
+    margin-right: 5px;
+}
+
+.page-title .pattern-layer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 166px;
+    z-index: 1;
+}
+.page-title .overlay-bg:before {
+    position: absolute;
+    content: '';
+    background: #2d2727;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+}
+.page-title:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 50%;
+    height: 166px;
+    left: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    z-index: 1;
+}
+.page-title:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: calc(50% + 1px);
+    height: 166px;
+    right: 0px;
+    bottom: 0px;
+    clip-path: polygon(0% 0%, 200% 100%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+
+.gallery-page-section {
+    padding-bottom: 90px;
+}
+.gallery-page-section .inner-box {
+    margin-bottom: 30px;
+}
+
+.gallery-block-one .inner-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.gallery-block-one .inner-box .image-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.gallery-block-one .inner-box .image-box:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 0%;
+    opacity: 0.9;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%, 0% 0%);
+    transition: all 500ms ease;
+}
+.gallery-block-one .inner-box .image-box:before {
+    background: #cc5e28;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.gallery-block-one .inner-box .image-box .view-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0,0);
+    font-size: 60px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 200;
+    z-index: 1;
+    transition: all 500ms ease;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -ms-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+a {
+    text-decoration: none;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box .image-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.gallery-block-one .inner-box .image-box img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+.gallery-page-section {
+    padding-bottom: 90px;
+}
