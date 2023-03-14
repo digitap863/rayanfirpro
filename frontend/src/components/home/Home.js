@@ -124,12 +124,10 @@ function Home() {
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
                 <div class="btns-grp" style={{paddingTop:"2rem"}}>
-                  <a class="theme-btn brd-rd30" href="/about" title="">
-                    Read More
+                  <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
+                  Call Now
                   </a>
-                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
-                    Call Now
-                  </a>
+              
                 </div>
               </div>
             </div>
@@ -156,11 +154,8 @@ function Home() {
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
                 <div class="btns-grp" style={{paddingTop:"2rem"}}>
-                  <a class="theme-btn brd-rd30" href="/about" title="">
-                    Read More
-                  </a>
-                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
-                    Call Now
+                <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
+                  Call Now
                   </a>
                 </div>
               </div>
@@ -188,11 +183,8 @@ function Home() {
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
                 <div class="btns-grp " style={{paddingTop:"2rem"}}>
-                  <a class="theme-btn brd-rd30" href="/about" title="">
-                    Read More
-                  </a>
-                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
-                    Call Now
+                <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
+                  Call Now
                   </a>
                 </div>
               </div>
