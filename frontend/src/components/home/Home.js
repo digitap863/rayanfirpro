@@ -105,6 +105,8 @@ function Home() {
               class="featured-item"
               style={{
                 backgroundImage: "url(assets/images/1.jpg)",
+                transition:"step-start"
+                
               }}
             >
               <img
@@ -112,20 +114,20 @@ function Home() {
                     src="/assets/images/Asset2scope.png"
                     alt="mockup-image"
                   />
-              <div class="featured-cap">
-                <span>Rescue and firefighters are great</span>
-                <h2>
-                  Saved <span class="theme-clr"> 5900</span>+ Lives Protecting{" "}
-                  <span class="theme-clr">Properties</span>
+              <div class="featured-cap" style={{marginLeft:"9%"}}>
+                {/* <span>Rescue and firefighters are great</span> */}
+                <h2>  
+                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                  {/* <span class="theme-clr">Properties</span> */}
                 </h2>
-                <p>
+                {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
-                </p>
-                <div class="btns-grp">
-                  <a class="theme-btn brd-rd30" href="#" title="">
+                </p> */}
+                <div class="btns-grp" style={{paddingTop:"2rem"}}>
+                  <a class="theme-btn brd-rd30" href="/about" title="">
                     Read More
                   </a>
-                  <a class="wht-btn brd-rd30" href="#" title="">
+                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
                     Call Now
                   </a>
                 </div>
@@ -134,7 +136,7 @@ function Home() {
           </div>
           <div>
             <div
-              class="featured-item"
+              class="featured-item" 
               style={{
                 backgroundImage: "url(assets/images/2.jpg)",
               }}
@@ -144,20 +146,20 @@ function Home() {
                     src="/assets/images/Asset2scope.png"
                     alt="mockup-image"
                   />
-              <div class="featured-cap">
-                <span>Rescue and firefighters are great</span>
-                <h2>
-                  Saved <span class="theme-clr"> 5900</span>+ Lives Protecting{" "}
-                  <span class="theme-clr">Properties</span>
+              <div class="featured-cap" style={{marginLeft:"9%"}}>
+                {/* <span>Rescue and firefighters are great</span> */}
+                <h2>  
+                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                  {/* <span class="theme-clr">Properties</span> */}
                 </h2>
-                <p>
+                {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
-                </p>
-                <div class="btns-grp">
-                  <a class="theme-btn brd-rd30" href="#" title="">
+                </p> */}
+                <div class="btns-grp" style={{paddingTop:"2rem"}}>
+                  <a class="theme-btn brd-rd30" href="/about" title="">
                     Read More
                   </a>
-                  <a class="wht-btn brd-rd30" href="#" title="">
+                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
                     Call Now
                   </a>
                 </div>
@@ -176,20 +178,20 @@ function Home() {
                     src="/assets/images/Asset2scope.png"
                     alt="mockup-image"
                   />
-              <div class="featured-cap">
-                <span>Rescue and firefighters are great</span>
-                <h2>
-                  Saved <span class="theme-clr"> 5900</span>+ Lives Protecting{" "}
-                  <span class="theme-clr">Properties</span>
+             <div class="featured-cap" style={{marginLeft:"9%"}}>
+                {/* <span>Rescue and firefighters are great</span> */}
+                <h2>  
+                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                  {/* <span class="theme-clr">Properties</span> */}
                 </h2>
-                <p>
+                {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
-                </p>
-                <div class="btns-grp">
-                  <a class="theme-btn brd-rd30" href="#" title="">
+                </p> */}
+                <div class="btns-grp " style={{paddingTop:"2rem"}}>
+                  <a class="theme-btn brd-rd30" href="/about" title="">
                     Read More
                   </a>
-                  <a class="wht-btn brd-rd30" href="#" title="">
+                  <a class="wht-btn brd-rd30" href="tel: 04952998879" title="">
                     Call Now
                   </a>
                 </div>
@@ -261,7 +263,7 @@ function Home() {
                     <i class="fa-solid fa-phone"></i>
                     <p>Contact Us</p>
                     <h4>
-                      <a href="tel: 04952998879"> 04952998879</a>
+                      <a href="tel: 04952998879"style={{fontSize:"1rem"}}> 04952998879</a>
                     </h4>
                   </div>
                 </div>
@@ -538,62 +540,17 @@ function Home() {
               })} */}
           <div style={{marginTop:"10rem"}}>
             <Slider {...gallerySettings}>
+            {gallery.map((items)=>{
+              return(
 
-
-              <div>
-                <div class="vdo-bx">
-                  <img src="assets/images/resources/vdo-img1-4.jpg" alt="vdo-img1-4.jpg" itemprop="image" />
-                  <a
-                    href="https://www.youtube.com/embed/s4PrBQpw2TU"
-                    data-fancybox="gallery"
-                    title=""
-                    itemprop="url"
-                  >
-                    <i class="flaticon-play-button"></i>
-                  </a>
+                <div>
+                <div class="vdo-bx" >
+                  <img src={items.Image} style={{maxHeight:"17rem",minHeight:"17rem"}} alt="vdo-img1-4.jpg" itemprop="image" />
+             
                 </div>
               </div>
-
-              <div>
-                <div class="vdo-bx">
-                  <img src="assets/images/resources/vdo-img1-5.jpg" alt="vdo-img1-5.jpg" itemprop="image" />
-                  <a
-                    href="https://www.youtube.com/embed/s4PrBQpw2TU"
-                    data-fancybox="gallery"
-                    title=""
-                    itemprop="url"
-                  >
-                    <i class="flaticon-play-button"></i>
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="vdo-bx">
-                  <img src="assets/images/resources/vdo-img1-3.jpg" alt="vdo-img1-3.jpg" itemprop="image" />
-                  <a
-                    href="https://www.youtube.com/embed/s4PrBQpw2TU"
-                    data-fancybox="gallery"
-                    title=""
-                    itemprop="url"
-                  >
-                    <i class="flaticon-play-button"></i>
-                  </a>
-                </div>
-              </div>
-
-              <div>
-                <div class="vdo-bx">
-                  <img src="assets/images/resources/vdo-img1-5.jpg" alt="vdo-img1-5.jpg" itemprop="image" />
-                  <a
-                    href="https://www.youtube.com/embed/s4PrBQpw2TU"
-                    data-fancybox="gallery"
-                    title=""
-                    itemprop="url"
-                  >
-                    <i class="flaticon-play-button"></i>
-                  </a>
-                </div>
-              </div>
+              )
+            })}
             </Slider>
           </div>
 

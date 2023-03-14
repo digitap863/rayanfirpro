@@ -7,6 +7,7 @@
     padding-top: 1rem;
     line-height: 20px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 .logo{
     width: 15%;
@@ -19,15 +20,22 @@
 }
 .navs{
     display: flex;
-    column-gap: 5rem;
+    column-gap: 2rem;
+    font-family: Tahoma;
+    letter-spacing: 0.1rem;
+}
+.fixedHeader .navs a:hover{
+    text-decoration: underline;
+    color: red;
+
 }
 .topBar{
     flex-wrap: wrap;
 }
 @media (max-width:480px) {
     .topBar{
-        justify-content: center !important;
-        height: 4.5rem !important;
+        font-size: 0.6rem;
+        height: 2.5rem !important;
     }
 }
 .topBar p{
@@ -73,7 +81,7 @@
 .mobileViewNavBar{
     width: 18rem;
     height: 100%;
-    background-color: rgb(32,32,32);
+    background-color: rgb(247, 244, 244);
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -98,10 +106,14 @@
     text-decoration: none;
     color: white;
     width: 100%;
-    border-top: 1.5px solid rgba(255,255,255,0.1);
+    border-top: 1.5px solid rgba(0, 0, 0, 0.1);
     padding:5% 0 5% 10%;
 
 }
+.mobileViewNavBar .mNavs a :hover{
+    color: red;
+}
+
 .contactInfo{
     padding: 40% 0 5% 10%;
 }

@@ -128,7 +128,7 @@ function Services() {
                     </ul>
                   </div>
                 </div>
-                <div class="sidebar-widget advise-widget">
+                {/* <div class="sidebar-widget advise-widget">
                   <div
                     class="inner-box centred"
                     style={{
@@ -141,7 +141,7 @@ function Services() {
                     </div>
                     <h2>Fire Department here to Save Lives</h2>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             {service(items)}

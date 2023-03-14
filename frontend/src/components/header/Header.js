@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/rayan.jpeg";
-import mLogo from "../../assets/rayan2.jpeg";
+import mLogo from "../../assets/rayan.jpeg";
 import insta from "../../assets/instaIcon.svg";
 import instaWhite from "../../assets/instagram-white.svg";
 import close from "../../assets/cross.svg";
@@ -41,7 +41,13 @@ function Header() {
             >
                 <div style={{ width: "90%", display: "flex", flexDirection: "column", rowGap: "1rem" }}>
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                        <div className="logo">
+                        <div
+                            className="logo"
+                            style={{ cursor: "pointer" }}
+                            onClick={(e) => {
+                                navigate("/");
+                            }}
+                        >
                             <img src={logo} alt="" />
                         </div>
                         <div className="navs">
@@ -124,13 +130,58 @@ function Header() {
                         <img src={mLogo} alt="" />
                     </div>
                     <div className="mNavs">
-                        <a href="">Home</a>
-                        <a href="">Services</a>
-                        <a href="">Contact Us</a>
-                        <a href="">About</a>
-                        <a href="" style={{ borderBottom: "1.5px solid rgba(255,255,255,0.1)" }}>
+                    <a
+                                onClick={(e) => {
+                                    navigate("/");
+                                }}
+                            >
+                                Home
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/about");
+                                }}
+                            >
+                                About
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/solutions");
+                                }}
+                            >
+                                Solutions
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/projects");
+                                }}
+                            >
+                                Projects
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/gallery");
+                                }}
+                            >
+                                Gallery
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/careers");
+                                }}
+                            >
+                                Career
+                            </a>
+                            <a
+                                onClick={(e) => {
+                                    navigate("/contact");
+                                }}
+                            >
+                                Contact
+                            </a>
+                        {/* <a href="" style={{ borderBottom: "1.5px solid rgba(255,255,255,0.1)" }}>
                             Help
-                        </a>
+                        </a> */}
                     </div>
                     <div className="contactInfo">
                         <p style={{ fontWeight: "600", fontSize: "1.3rem", marginBottom: "1.2rem" }}>Contact Info</p>
