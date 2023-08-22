@@ -8,7 +8,6 @@ module.exports.connect = function (done) {
   const url =
     process.env.MONGO_URL ||
     "mongodb+srv://asifsaheer:asifsaheer@cluster0.znc9fec.mongodb.net/?retryWrites=true&w=majority";
-
   mongoClient.connect(url, (err, data) => {
     if (err) return done(err);
 

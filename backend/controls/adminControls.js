@@ -37,7 +37,6 @@ const DeleteBlog = asyncHandler(async (req, res) => {
     .get()
     .collection(collection.GALLERY_COLLECTION)
     .deleteOne({ _id: ObjectId(id) });
-  console.log(deleteBlog, "dm");
   if (deleteBlog) {
     res.status(200).json("Success");
   } else {

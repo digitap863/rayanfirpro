@@ -70,10 +70,10 @@ function AddProject() {
               <i class="fa fa-user"></i>
             </div>
           </div>
-
           <label>Add Images</label>
           <div class="input-group input-group-icon">
             <input
+              className="border-1"
               type="file"
               onChange={(e) => {
                 FileUploader(e);

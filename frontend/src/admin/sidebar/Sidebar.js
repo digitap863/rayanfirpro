@@ -34,13 +34,14 @@ function AdminMain() {
     });
   };
   return (
-    <div class="s-layout__sidebar">
+    <div class="s-layout__sidebar ">
+      
       <a
-        class="s-sidebar__trigger"
+        class="s-sidebar__trigger "
         href="#0"
         onClick={() => setNavState(!navState)}
       >
-        <MenuIcon sx={{ fontSize: "2rem", color: "white" }}></MenuIcon>
+        <MenuIcon className="ml-4 mt-3" sx={{ fontSize: "2rem", color: "white"  }}></MenuIcon>
       </a>
       <nav
         style={{ zIndex: "1" }}

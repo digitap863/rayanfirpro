@@ -62,12 +62,14 @@ function AddProject() {
   };
   return (
     <div class="container ms-5" style={{ marginTop: "5rem" }}>
+      <div className="text-center text-uppercase h5 text-decoration-underline">Add Project</div>
       <form>
         <div class="row" style={{ marginLeft: "2rem", paddingTop: "2rem" }}>
           <label>Project Name</label>
           <div class="input-group input-group-icon">
             <input
               type="text"
+              className="border"
               onChange={(e) => {
                 setProjectName(e.target.value);
               }}
@@ -86,10 +88,11 @@ function AddProject() {
               }}
               type="message"
               rows={4}
+              className="border-1"
               placeholder="Project Description"
             />
-              <div>
-            <a className="btn btn-primary" onClick={AddParagraph}>
+              <div className="small mt-2 mb-2">
+            <a className="btn btn-small ms-2  text-light btn-primary" onClick={AddParagraph}>
               Add Another Paragraph
             </a>
           </div>
