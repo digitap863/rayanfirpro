@@ -22,122 +22,10 @@ function Footer() {
                       the recovery of those unfortunate enough to suffer a
                       setback.
                     </p>
-                    {/* <div class="loc-mp" id="loc-mp"></div>
-                        <span>
-                          <i class="fas fa-map-marker-alt theme-clr"></i>Find us
-                          on Map
-                        </span> */}
                   </div>
                 </div>
 
                 <div class="col-md-6 ">
-                  {/* <div class="col-md-7 col-sm-7 col-lg-7">
-                      <div class="wdgt-bx">
-                        <h5 itemprop="headline">Latest Work</h5>
-                        <div class="wrk-glry-wrp">
-                          <ul class="wrk-gal-mn">
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img1.jpg"
-                                alt="wrk-gal-img1.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img2.jpg"
-                                alt="wrk-gal-img2.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img3.jpg"
-                                alt="wrk-gal-img3.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img4.jpg"
-                                alt="wrk-gal-img4.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img5.jpg"
-                                alt="wrk-gal-img5.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="assets/images/resources/wrk-gal-img6.jpg"
-                                alt="wrk-gal-img6.jpg"
-                                itemprop="image"
-                              />
-                            </li>
-                          </ul>
-                          <ul class="wrk-gal-nv">
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img1.jpg"
-                                  alt="wrk-gal-nv-img1.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img2.jpg"
-                                  alt="wrk-gal-nv-img2.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img3.jpg"
-                                  alt="wrk-gal-nv-img3.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img4.jpg"
-                                  alt="wrk-gal-nv-img4.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img5.jpg"
-                                  alt="wrk-gal-nv-img5.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                            <li>
-                              <div class="wrk-gal-nv-itm">
-                                <img
-                                  src="assets/images/resources/wrk-gal-nv-img6.jpg"
-                                  alt="wrk-gal-nv-img6.jpg"
-                                  itemprop="image"
-                                />
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div> */}
                   <div class="col-md-5 col-sm-5 col-lg-5">
                     <div class="wdgt-bx">
                       <h5 itemprop="headline">Quick Links</h5>
@@ -223,9 +111,15 @@ function Footer() {
           <div class="cpyrgt float-left">
             <p itemprop="description">
               <a href="#" title="" itemprop="url">
-                NAAR
+                Copyright
               </a>{" "}
-              &copy; 2020 / ALL RIGHTS RESERVED
+              &copy; Rayan Fire Protection Systems All Rights Reserved
+            </p>
+            <p itemprop="description">
+              <a href="#" title="" itemprop="url">
+                Developed By
+              </a>{" "}
+              Tapclone
             </p>
           </div>
           <div class="scl-sbcrb float-right">
