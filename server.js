@@ -32,10 +32,9 @@ db.connect((err) => {
     console.log("database connected");
   }
 }); 
-app.use('/api',express.static(path.join(__dirname, "/frontend/build")));
 __dirname = path.resolve();
 if (NODE_ENV === "productiony") {
-  app.use('/api',express.static(path.join(__dirname, "/frontend/build")));
+  app.use(express.static(path.join(__dirname, "/frontend/build")));
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
   });
