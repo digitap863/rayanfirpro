@@ -102,7 +102,7 @@ function AddProject() {
           )}
 
           {images && (
-            <img src={{images}} style={{ width: "7rem", height: "7rem" }}></img>
+            <img src={images} style={{ width: "7rem", height: "7rem" }}></img>
           )}
         </div>
         {error && <div style={{ color: "red" }}>{error}</div>}
