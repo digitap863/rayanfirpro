@@ -16,8 +16,8 @@ function WatebaseSupression() {
             
             <p style={{marginTop:"1rem"}}>
               We offer a range of Water-Based Fire Protection Systems such as
-              sprinklers, hydrants, pre-action systems, kitchen hood systems,
-              high and medium velocity mist systems, and tank foam systems to
+              Sprinklers, Hydrants, Pre-action Systems,
+              High and Medium Velocity Mist Systems, and Tank Foam Systems to
               suit the unique fire protection needs of different structures.
             </p>
  

@@ -15,7 +15,7 @@ function Footer() {
                   <div class="wdgt-bx">
                     <h5 itemprop="headline">About Us</h5>
                     <p itemprop="description">
-                      We offer a wide variety of risk reduction strategies as
+                    Rayan Fire Systems,with a strong commitement to protect lives and properties, offer a range of cutting edge fire safety serivces and products that ensure peace of mind and uncompromising safety standards. We offer a wide variety of risk reduction strategies as
                       part of our unwavering commitment to the emergency's
                       prevention, preparation, response, and recovery phases.
                       Our team is committed to preserving lives and accelerating

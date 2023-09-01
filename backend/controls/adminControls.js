@@ -100,10 +100,8 @@ const ViewAllProject = asyncHandler(async (req, res) => {
   }
 });
 const UploadImage = asyncHandler(async (req, res) => {
-  console.log(req.file);
   let image = req.file;
   const path = "/images" + "/" + image.filename;
-  console.log(path);
   if (path) {
     res.status(200).json(path);
   } else {

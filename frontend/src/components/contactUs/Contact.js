@@ -89,13 +89,7 @@ function Contact() {
                           AKSHAYA COMPLEX WESTHILL, CALICUT. PIN-673005.
                         </span>
                       </li>
-                      <li>
-                        <i class="fas fa-phone theme-clr"></i>{" "}
-                        <strong>Phone</strong>
-                        <span>+91 9072495879</span>
-                        {/* <span>9072495879</span>
-                        <span>9072495878</span>{" "} */}
-                      </li>
+                   
                     </ul>
                     <div class="scl4">
                       <a

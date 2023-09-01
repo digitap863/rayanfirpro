@@ -5,6 +5,7 @@ const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 var bodyParser = require('body-parser')
+const morgan = require("morgan");
 const NODE_ENV="production"
 
 const cors = require("cors");
@@ -22,6 +23,7 @@ app.use(session({ secret: "key", cookie: { maxAge: 6000000 } }));
 const location = path.resolve();
 app.use('/images',express.static(path.join(location,"/images")))
 app.use("/api/admin", adminRoutes);
+app.use(morgan());
 const PORT = process.env.PORT || 8000;
 db.connect((err) => {
   if (err) {

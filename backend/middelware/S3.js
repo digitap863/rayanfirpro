@@ -19,7 +19,7 @@ module.exports.uploadS3 = (fileData) => {
     s3.upload(params, (err, data) => {
       if (err) {
         console.log(err);
-        reject(err);
+        reject(err);  
       } else {  
         return resovle(data);
       }

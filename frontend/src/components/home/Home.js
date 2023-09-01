@@ -15,6 +15,7 @@ function Home() {
     (async function () {
       try {
         const { data } = await axios.get("/api/admin/view-all-blog");
+        console.log(data);
         setGallery(data);
       } catch (error) {
         console.log(error);
@@ -117,7 +118,7 @@ function Home() {
               <div class="featured-cap" style={{marginLeft:"9%"}}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>  
-                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -147,7 +148,7 @@ function Home() {
               <div class="featured-cap" style={{marginLeft:"9%"}}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>  
-                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -176,7 +177,7 @@ function Home() {
              <div class="featured-cap" style={{marginLeft:"9%"}}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>  
-                Life Safety  to over <span class="theme-clr">3800</span>+ people and Properties{" "}
+                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -224,7 +225,7 @@ function Home() {
                   </div>
                   <div class="text pt-2">
                     <p>
-                      Rayan Firesystems. Specialize in design, supply, installation, testing,
+                      Rayan Fire systems. Specialize in design, supply, installation, testing,
                       commissioning and servicing of complete fire protection systems as per national
                       building code of India (NBC). We are a group of professionals with around 20
                       years of experience in the field of fire system installation, consultancy
@@ -446,7 +447,7 @@ function Home() {
                     </div>
                     <div class="single-item ps-4">
                       <i class="fas fa-check"></i>
-                      <h5>24/7 Available to Save</h5>
+                      <h5>Quick Response</h5>
                     </div>
                   </div>
                   <div class="progress-inner">
@@ -481,7 +482,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section class="cta-section bg-color-3">
+      {/* <section class="cta-section bg-color-3">
         <div class="pattern-layer"></div>
         <div class="auto-container">
           <div class="inner-box clearfix">
@@ -504,7 +505,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="mt-5">
         <div class="gap theme-bg-layer opc9 hlf-parallax ">
@@ -519,21 +520,10 @@ function Home() {
             <span>We provide you with practical actions, advice and resources.</span>
             <h2 itemprop="headline">Gallery</h2>
           </div>
-          {/* {gallery?.map((items) => {
-                return (
-                  <div class="vdo-bx">
-                    <img
-                      src={items?.Image}
-                      alt="vdo-img1-2.jpg"
-                      itemprop="image"
-                    />
-                  </div>
-                );
-              })} */}
           <div style={{marginTop:"10rem"}}>
             <Slider {...gallerySettings}>
-            {gallery.map((items)=>{
-              return(
+            {gallery.map((items)=>(
+              // return(
 
                 <div>
                 <div class="vdo-bx" >
@@ -541,205 +531,12 @@ function Home() {
              
                 </div>
               </div>
-              )
-            })}
+              // )
+            ) )}
             </Slider>
           </div>
-
-
-        </div>
+           </div>
       </section>
-      {/* <section>
-        <div class="gap remove-gap">
-          <div class="container">
-            <div class="sec-tl text-center">
-              <span>Get upto date information from blogs and events</span>
-              <h2 itemprop="headline">
-                Our Blog & <span class="theme-clr">Events</span>
-              </h2>
-            </div>
-            <div class="blg-evnt-wrp">
-              <div class="row">
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="remove-ext5">
-                    <div class="row">
-                      <div class="col-md-6 col-sm-6 col-lg-6">
-                        <div class="blg-bx">
-                          <div class="blg-thmb">
-                            <a href="blog-detail.html" title="" itemprop="url">
-                              <img
-                                src="assets/images/resources/blg-img1-1.jpg"
-                                alt="blg-img1-1.jpg"
-                                itemprop="image"
-                              />
-                            </a>
-                          </div>
-                          <div class="blg-inf">
-                            <h6 itemprop="headline">
-                              <a
-                                href="blog-detail.html"
-                                title=""
-                                itemprop="url"
-                              >
-                                Road Closed, House On Fire
-                              </a>
-                            </h6>
-                            <ul class="pst-mta">
-                              <li>
-                                <i class="far fa-calendar-alt"></i>
-                                <a href="#" title="" itemprop="url">
-                                  Aug 25, 2020
-                                </a>
-                              </li>
-                              <li>
-                                <i class="fas fa-user"></i>
-                                <a href="#" title="" itemprop="url">
-                                  Nodi Blake
-                                </a>
-                              </li>
-                            </ul>
-                            <p itemprop="description">
-                              Sed ut perspiciatis unde omnis iste natus error
-                              sit voluptatem accusantium doloremque.
-                            </p>
-                            <a href="blog-detail.html" title="" itemprop="url">
-                              Read More
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 col-lg-6">
-                        <div class="blg-bx">
-                          <div class="blg-thmb">
-                            <a href="blog-detail.html" title="" itemprop="url">
-                              <img
-                                src="assets/images/resources/blg-img1-2.jpg"
-                                alt="blg-img1-2.jpg"
-                                itemprop="image"
-                              />
-                            </a>
-                          </div>
-                          <div class="blg-inf">
-                            <h6 itemprop="headline">
-                              <a
-                                href="blog-detail.html"
-                                title=""
-                                itemprop="url"
-                              >
-                                Shoe Factory Caught Fire
-                              </a>
-                            </h6>
-                            <ul class="pst-mta">
-                              <li>
-                                <i class="far fa-calendar-alt"></i>
-                                <a href="#" title="" itemprop="url">
-                                  Oct 14, 2020
-                                </a>
-                              </li>
-                              <li>
-                                <i class="fas fa-user"></i>
-                                <a href="#" title="" itemprop="url">
-                                  Nodi Blake
-                                </a>
-                              </li>
-                            </ul>
-                            <p itemprop="description">
-                              Sed ut perspiciatis unde omnis iste natus error
-                              sit voluptatem accusantium doloremque.
-                            </p>
-                            <a href="blog-detail.html" title="" itemprop="url">
-                              Read More
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="evnt-wrp">
-                    <div class="evnt-bx">
-                      <span class="evnt-dat">
-                        <a class="theme-bg" href="#" title="" itemprop="url">
-                          18<i>Oct</i>
-                        </a>
-                      </span>
-                      <div class="evnt-inf">
-                        <h5 itemprop="headline">
-                          <a href="event-detail.html" title="" itemprop="url">
-                            Emergency Medical Services Tips
-                          </a>
-                        </h5>
-                        <ul class="pst-mta">
-                          <li>
-                            <i class="fas fa-map-marker-alt theme-clr"></i>
-                            Glasgow, DO4 89GR
-                          </li>
-                          <li>
-                            <i class="far fa-clock theme-clr"></i>03:00 pm -
-                            10:00 pm
-                          </li>
-                        </ul>
-                        <p itemprop="description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud.
-                        </p>
-                        <a
-                          class="event-btn"
-                          href="event-detail.html"
-                          title=""
-                          itemprop="url"
-                        >
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                    <div class="evnt-bx">
-                      <span class="evnt-dat">
-                        <a class="theme-bg" href="#" title="" itemprop="url">
-                          21<i>Oct</i>
-                        </a>
-                      </span>
-                      <div class="evnt-inf">
-                        <h5 itemprop="headline">
-                          <a href="event-detail.html" title="" itemprop="url">
-                            Emergency Medical Services Tips
-                          </a>
-                        </h5>
-                        <ul class="pst-mta">
-                          <li>
-                            <i class="fas fa-map-marker-alt theme-clr"></i>
-                            Glasgow, DO4 89GR
-                          </li>
-                          <li>
-                            <i class="far fa-clock theme-clr"></i>03:00 pm -
-                            10:00 pm
-                          </li>
-                        </ul>
-                        <p itemprop="description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                        <a
-                          class="event-btn"
-                          href="event-detail.html"
-                          title=""
-                          itemprop="url"
-                        >
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section>
         <div class="gap black-layer opc8">
           <div
@@ -801,206 +598,6 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* <section>
-        <div class="gap">
-          <div class="container">
-            <div class="sec-tl text-center">
-              <span>Fire Fighters are always ready to help and care</span>
-              <h2 itemprop="headline">
-                Firefighters <span class="theme-clr">Team</span>
-              </h2>
-            </div>
-            <div class="tem-sec remove-ext5 text-center">
-              <div class="row">
-                <div class="col-md-4 col-sm-6 col-lg-4">
-                  <div class="tm-bx">
-                    <div class="tm-thmb">
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <img
-                          src="assets/images/resources/tm-img1.jpg"
-                          alt="tm-img1.jpg"
-                          itemprop="image"
-                        />
-                      </a>
-                      <div class="scl2">
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Linkedin"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Google Plus"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-google-plus-g"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="tm-inf">
-                      <h5 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Tim Patinson
-                        </a>
-                      </h5>
-                      <span class="theme-clr">Fire Fighter</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-lg-4">
-                  <div class="tm-bx">
-                    <div class="tm-thmb">
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <img
-                          src="assets/images/resources/tm-img2.jpg"
-                          alt="tm-img2.jpg"
-                          itemprop="image"
-                        />
-                      </a>
-                      <div class="scl2">
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Linkedin"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Google Plus"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-google-plus-g"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="tm-inf">
-                      <h5 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Johny Smith
-                        </a>
-                      </h5>
-                      <span class="theme-clr">Rescue Doctor</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-lg-4">
-                  <div class="tm-bx">
-                    <div class="tm-thmb">
-                      <a href="team-detail.html" title="" itemprop="url">
-                        <img
-                          src="assets/images/resources/tm-img3.jpg"
-                          alt="tm-img3.jpg"
-                          itemprop="image"
-                        />
-                      </a>
-                      <div class="scl2">
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Twitter"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Facebook"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Linkedin"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a
-                          class="theme-bg"
-                          href="#"
-                          title="Google Plus"
-                          itemprop="url"
-                          target="_blank"
-                        >
-                          <i class="fab fa-google-plus-g"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="tm-inf">
-                      <h5 itemprop="headline">
-                        <a href="team-detail.html" title="" itemprop="url">
-                          Kevin Stene
-                        </a>
-                      </h5>
-                      <span class="theme-clr">First Aid Officer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="floter-911" href="#" title="" itemprop="url">
-            <img
-              src="assets/images/911-icon.png"
-              alt="911-icon.png"
-              itemprop="image"
-            />
-          </a>
-        </div>
-      </section> */}
     </div>
   );
 }

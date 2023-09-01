@@ -17,7 +17,12 @@ function GasBased() {
               In addition to fire detection and alarm systems, buildings that
               have dedicated server/rack rooms should have a minimum-level gas
               suppression system. We provide a range of gas suppression systems
-              including CO2, NAF SIII, FM 200, and Inergen.
+              including Novac,
+Inergen,
+FM200,
+Kitchen Hood Systems,
+Co2.
+
             </p>
         
           </div>

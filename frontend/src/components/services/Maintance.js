@@ -14,7 +14,7 @@ function Maintance() {
           </figure>
           <div class="text">
             <p style={{marginTop:"1rem"}}>
-              Firepro manages all your fire, security, and infrastructure
+              Rayan Fire Systems manages all your fire, security, and infrastructure
               solutions proactively in an end-to-end manner. Our highly-trained
               engineering teams are available round-the-clock to ensure that all
               systems are maintained efficiently and effectively. Our services
