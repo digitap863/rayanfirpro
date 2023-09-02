@@ -2,11 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
-import firewaterimg from '../../assets/images/fire-water.jpg'
+import firewaterimg from "../../assets/images/fire-water.jpg";
 import axios from "axios";
-
-
-
 
 function Home() {
   const navigate = useNavigate();
@@ -24,7 +21,7 @@ function Home() {
   }, []);
 
   const settings = {
-    dots:true,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -48,7 +45,7 @@ function Home() {
         settings: {
           slidesToShow: 1,
         },
-      }
+      },
     ],
   };
 
@@ -61,7 +58,7 @@ function Home() {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
-  }
+  };
 
   const gallerySettings = {
     dots: false,
@@ -72,7 +69,7 @@ function Home() {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
-    responsive:[
+    responsive: [
       {
         breakpoint: 900,
         settings: {
@@ -93,10 +90,9 @@ function Home() {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
-      }
-
-    ]
-  }
+      },
+    ],
+  };
   return (
     <div>
       <section>
@@ -106,57 +102,65 @@ function Home() {
               class="featured-item"
               style={{
                 backgroundImage: "url(assets/images/1.jpg)",
-                transition:"step-start"
-                
+                transition: "step-start",
               }}
             >
               <img
-                    class="facts-mockup animated bounce bannerImg"
-                    src="/assets/images/Asset2scope.png"
-                    alt="mockup-image"
-                  />
-              <div class="featured-cap" style={{marginLeft:"9%"}}>
+                class="facts-mockup animated bounce bannerImg"
+                src="/assets/images/Asset2scope.png"
+                alt="mockup-image"
+              />
+              <div class="featured-cap" style={{ marginLeft: "9%" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
-                <h2>  
-                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
+                <h2>
+                  Perfect Safety <span class="theme-clr">Solutions</span> To
+                  Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
-                <div class="btns-grp" style={{paddingTop:"2rem"}}>
-                  <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
-                  Call Now
+                <div class="btns-grp" style={{ paddingTop: "2rem" }}>
+                  <a
+                    class="theme-btn brd-rd30"
+                    href="mailto:info@rayanfiresystems.com"
+                    title="Email us"
+                  >
+                    Contact Now
                   </a>
-              
                 </div>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="featured-item" 
+              class="featured-item"
               style={{
                 backgroundImage: "url(assets/images/2.jpg)",
               }}
             >
               <img
-                    class="facts-mockup animated bounce bannerImg"
-                    src="/assets/images/Asset2scope.png"
-                    alt="mockup-image"
-                  />
-              <div class="featured-cap" style={{marginLeft:"9%"}}>
+                class="facts-mockup animated bounce bannerImg"
+                src="/assets/images/Asset2scope.png"
+                alt="mockup-image"
+              />
+              <div class="featured-cap" style={{ marginLeft: "9%" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
-                <h2>  
-                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
+                <h2>
+                  Perfect Safety <span class="theme-clr">Solutions</span> To
+                  Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
-                <div class="btns-grp" style={{paddingTop:"2rem"}}>
-                <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
-                  Call Now
+                <div class="btns-grp" style={{ paddingTop: "2rem" }}>
+                <a
+                    class="theme-btn brd-rd30"
+                    href="mailto:info@rayanfiresystems.com"
+                    title="Email us"
+                  >
+                    Contact Now
                   </a>
                 </div>
               </div>
@@ -170,31 +174,33 @@ function Home() {
               }}
             >
               <img
-                    class="facts-mockup animated bounce bannerImg"
-                    src="/assets/images/Asset2scope.png"
-                    alt="mockup-image"
-                  />
-             <div class="featured-cap" style={{marginLeft:"9%"}}>
+                class="facts-mockup animated bounce bannerImg"
+                src="/assets/images/Asset2scope.png"
+                alt="mockup-image"
+              />
+              <div class="featured-cap" style={{ marginLeft: "9%" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
-                <h2>  
-                Perfect Safety <span class="theme-clr">Solutions</span>  To Protect Life And Properties
+                <h2>
+                  Perfect Safety <span class="theme-clr">Solutions</span> To
+                  Protect Life And Properties
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
                   Fire Fighters Team Saved 6000+ Lives & ninty two hundred acres of forest from fire.
                 </p> */}
-                <div class="btns-grp " style={{paddingTop:"2rem"}}>
-                <a class="theme-btn brd-rd30"  href="tel: 04952998879" title="">
-                  Call Now
+                <div class="btns-grp " style={{ paddingTop: "2rem" }}>
+                <a
+                    class="theme-btn brd-rd30"
+                    href="mailto:info@rayanfiresystems.com"
+                    title="Email us"
+                  >
+                    Contact Now
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </Slider>
-
-
-
       </section>
       <section class="about-section">
         <div class="auto-container">
@@ -225,11 +231,13 @@ function Home() {
                   </div>
                   <div class="text pt-2">
                     <p>
-                      Rayan Fire systems. Specialize in design, supply, installation, testing,
-                      commissioning and servicing of complete fire protection systems as per national
-                      building code of India (NBC). We are a group of professionals with around 20
-                      years of experience in the field of fire system installation, consultancy
-                      services and training needs of fire systems.
+                      Rayan Fire systems. Specialize in design, supply,
+                      installation, testing, commissioning and servicing of
+                      complete fire protection systems as per national building
+                      code of India (NBC). We are a group of professionals with
+                      around 20 years of experience in the field of fire system
+                      installation, consultancy services and training needs of
+                      fire systems.
                     </p>
                   </div>
                   <div class="inner-box clearfix">
@@ -242,7 +250,9 @@ function Home() {
                     </div>
                     <div class="single-item">
                       <i class="fa-solid fa-fire-burner"></i>
-                      <h4 style={{ paddingLeft: "1.5rem" }}>Don’t play with matches</h4>
+                      <h4 style={{ paddingLeft: "1.5rem" }}>
+                        Don’t play with matches
+                      </h4>
                     </div>
                   </div>
                   {/* <ul class="list-item clearfix">
@@ -253,10 +263,12 @@ function Home() {
                   </ul> */}
                   <div class="support-box">
                     <i class="fa-regular fa-phone"></i>
-                    <i class="fa-solid fa-phone"></i>
                     <p>Contact Us</p>
                     <h4>
-                      <a href="tel: 04952998879"style={{fontSize:"1rem"}}> 04952998879</a>
+                      <a href="tel: 04952998879" style={{ fontSize: "1rem" }}>
+                        {" "}
+                        info@rayanfiresystems.com
+                      </a>
                     </h4>
                   </div>
                 </div>
@@ -409,7 +421,7 @@ function Home() {
         </div>
       </section>
 
-      <section class="skrills-section bg-color-2" style={{marginTop:"3rem"}}>
+      <section class="skrills-section bg-color-2" style={{ marginTop: "3rem" }}>
         <div
           class="bg-layer"
           style={{
@@ -430,14 +442,20 @@ function Home() {
                 <div class="content-box">
                   <div class="sec-title light">
                     {/* <p>The Best Firefighters Team</p> */}
-                    <h2>Rayan Fire Systems: Elevating fire safety through innovation.</h2>
+                    <h2>
+                      Rayan Fire Systems: Elevating fire safety through
+                      innovation.
+                    </h2>
                   </div>
                   <div class="text">
                     <p>
-                    We take pride in being your ultimate destination for top quality fire safety solutions that empowers you to face any challenge head-on.
-                    <br/>
-                    Quality Assurance: Our products and services meet the highest industry standards, ensuring that your safety is never compromised.
-
+                      We take pride in being your ultimate destination for top
+                      quality fire safety solutions that empowers you to face
+                      any challenge head-on.
+                      <br />
+                      Quality Assurance: Our products and services meet the
+                      highest industry standards, ensuring that your safety is
+                      never compromised.
                     </p>
                   </div>
                   <div class="inner-box clearfix">
@@ -512,30 +530,35 @@ function Home() {
           <div
             class="fixed-bg"
             style={{
-              backgroundImage:
-                `url(${firewaterimg})`,
+              backgroundImage: `url(${firewaterimg})`,
             }}
           ></div>
           <div class="sec-tl text-center">
-            <span>We provide you with practical actions, advice and resources.</span>
+            <span>
+              We provide you with practical actions, advice and resources.
+            </span>
             <h2 itemprop="headline">Gallery</h2>
           </div>
-          <div style={{marginTop:"10rem"}}>
+          <div style={{ marginTop: "10rem" }}>
             <Slider {...gallerySettings}>
-            {gallery.map((items)=>(
-              // return(
+              {gallery.map((items) => (
+                // return(
 
                 <div>
-                <div class="vdo-bx" >
-                  <img src={items.Image} style={{maxHeight:"17rem",minHeight:"17rem"}} alt="vdo-img1-4.jpg" itemprop="image" />
-             
+                  <div class="vdo-bx">
+                    <img
+                      src={items.Image}
+                      style={{ maxHeight: "17rem", minHeight: "17rem" }}
+                      alt="vdo-img1-4.jpg"
+                      itemprop="image"
+                    />
+                  </div>
                 </div>
-              </div>
-              // )
-            ) )}
+                // )
+              ))}
             </Slider>
           </div>
-           </div>
+        </div>
       </section>
       <section>
         <div class="gap black-layer opc8">
@@ -562,10 +585,18 @@ function Home() {
                       {/* <span>
                         Youth Fire Stop Prevention & Intervention Program.
                       </span> */}
-                      <h2 itemprop="headline">Setting New Standards in Fire Safety Solutions and Innovation.</h2>
+                      <h2 itemprop="headline">
+                        Setting New Standards in Fire Safety Solutions and
+                        Innovation.
+                      </h2>
                     </div>
                     <p itemprop="description">
-                    Safeguard lives and properties with Rayan Fire Systems,the leading fire safety solution provider in Kerala. We are dedicated to ensuring that your environment is prepared to handle fire emergencies with confidence. Contact us today to fortify your safety measures and secure a fire-resistant future.
+                      Safeguard lives and properties with Rayan Fire Systems,the
+                      leading fire safety solution provider in Kerala. We are
+                      dedicated to ensuring that your environment is prepared to
+                      handle fire emergencies with confidence. Contact us today
+                      to fortify your safety measures and secure a
+                      fire-resistant future.
                     </p>
                     <ul class="fcts-lst">
                       <li>

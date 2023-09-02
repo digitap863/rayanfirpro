@@ -116,30 +116,7 @@ function Services() {
                     </div>
                 </div>
             </section>
-            <section class="cta-section bg-color-3">
-                <div class="pattern-layer" style={{ background: "url(assets/images/shape/pattern-1.png)" }}></div>
-                <div class="auto-container">
-                    <div class="inner-box clearfix">
-                        <div class="text pull-left">
-                            <h2>
-                                24/7 Available. Call us Immediately
-                                <br />
-                                <a href="tel: 04952998879"> 04952998879</a>
-                            </h2>
-                        </div>
-                        <div class="btn-box pull-right">
-                            <a
-                                onClick={(e) => {
-                                    navigate("/contact");
-                                }}
-                                class="theme-btn-one"
-                            >
-                                Contact with us
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </>
     );
 }
