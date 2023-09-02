@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
-
+import firewaterimg from '../../assets/images/fire-water.jpg'
 import axios from "axios";
 
 
@@ -430,14 +430,14 @@ function Home() {
                 <div class="content-box">
                   <div class="sec-title light">
                     {/* <p>The Best Firefighters Team</p> */}
-                    <h2>Protected the lives and property of over 5900 people</h2>
+                    <h2>Rayan Fire Systems: Elevating fire safety through innovation.</h2>
                   </div>
                   <div class="text">
                     <p>
-                      No matter if your house is on fire, your workplace is, or your neighborhood
-                      forest is experiencing a wildfire, our team will show up to put out the fire as
-                      soon as practically possible, which makes us essential to the well-being of the
-                      community.
+                    We take pride in being your ultimate destination for top quality fire safety solutions that empowers you to face any challenge head-on.
+                    <br/>
+                    Quality Assurance: Our products and services meet the highest industry standards, ensuring that your safety is never compromised.
+
                     </p>
                   </div>
                   <div class="inner-box clearfix">
@@ -513,7 +513,7 @@ function Home() {
             class="fixed-bg"
             style={{
               backgroundImage:
-                "url(https://www.shutterstock.com/image-illustration/fire-water-colliding-black-background-260nw-1440588368.jpg)",
+                `url(${firewaterimg})`,
             }}
           ></div>
           <div class="sec-tl text-center">
@@ -562,15 +562,10 @@ function Home() {
                       {/* <span>
                         Youth Fire Stop Prevention & Intervention Program.
                       </span> */}
-                      <h2 itemprop="headline">Life Safety to over 3800 people and property</h2>
+                      <h2 itemprop="headline">Setting New Standards in Fire Safety Solutions and Innovation.</h2>
                     </div>
                     <p itemprop="description">
-                      We engage in a wide variety of activities, many of which put our lives in
-                      danger. Still, we also participate in any activity that helps us and requires
-                      quick thinking and physical prowess. Our main goal is to protect lives by
-                      putting out flames before they start and doing so in emergencies. Property is
-                      essential, but lives are more important than property. So the fire brigade team
-                      devotes considerable time to keeping the property safe
+                    Safeguard lives and properties with Rayan Fire Systems,the leading fire safety solution provider in Kerala. We are dedicated to ensuring that your environment is prepared to handle fire emergencies with confidence. Contact us today to fortify your safety measures and secure a fire-resistant future.
                     </p>
                     <ul class="fcts-lst">
                       <li>

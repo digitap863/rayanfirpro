@@ -26,7 +26,7 @@ function Header() {
                         className="topBar"
                         style={{ display: "flex", justifyContent: "space-between", alignItems: "center", height: "3rem" }}
                     >
-                        <p>We saved 3800 + lives and protecting properties</p>
+                        <p>Rayan Fire Systems: Elevating fire safety through innovation.</p>
                         <div className="socialMediaIcons" style={{ display: "flex" }}>
                             <i class="fab fa-google-plus-g"></i>
                             <i class="fab fa-instagram"></i>

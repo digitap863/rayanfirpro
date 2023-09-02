@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { useNavigate } from "react-router-dom";
+import firewaterimg from '../../assets/images/fire-water.jpg'
 function About() {
   const navigate = useNavigate();
   return (
@@ -9,7 +10,7 @@ function About() {
         class="page-title centred"
         style={{
           backgroundImage:
-            " url(https://www.shutterstock.com/image-illustration/fire-water-colliding-black-background-260nw-1440588368.jpg)",
+            `url(${firewaterimg})`,
         }}
       >
         <div class="overlay-bg"></div>
@@ -53,22 +54,13 @@ function About() {
                   </div>
                   <div class="text">
                     <p>
-                      We engage in a wide variety of activities, many of which
-                      put our lives in danger. Still, we also participate in any
-                      activity that helps us and requires quick thinking and
-                      physical prowess. Our main goal is to protect lives by
-                      putting out flames before they start and doing so in
-                      emergencies. Property is essential, but lives are more
-                      important than property. So the fire brigade team devotes
-                      considerable time to keeping the property safe.
+                    Safeguard lives and properties with Rayan Fire Systems,the leading fire safety solution provider in Kerala. We are dedicated to ensuring that your environment is prepared to handle fire emergencies with confidence. Contact us today to fortify your safety measures and secure a fire-resistant future.
                     </p>
                     <p className="mt-3">
-                      We offer a wide variety of risk reduction strategies as
-                      part of our unwavering commitment to the emergency's
-                      prevention, preparation, response, and recovery phases.
-                      Our team is committed to preserving lives and accelerating
-                      the recovery of those unfortunate enough to suffer a
-                      setback.
+                    As a fire safety solution provider we understand the unique challenges and regulations of the region, ensuring compliance and customized solutions.
+Quality Assurance: Our products and services meet the highest industry standards, ensuring that your safety is never compromised.
+
+
                     </p>
                   </div>
                   {/* <ul class="list-item clearfix">
