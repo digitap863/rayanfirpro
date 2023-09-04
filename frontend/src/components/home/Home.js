@@ -123,7 +123,7 @@ function Home() {
                 <div class="btns-grp" style={{ paddingTop: "2rem" }}>
                   <a
                     class="theme-btn brd-rd30"
-                    href="mailto:info@rayanfiresystems.com"
+                    href="mailto:rayanfiresystems@gmail.com"
                     title="Email us"
                   >
                     Contact Now
@@ -157,7 +157,7 @@ function Home() {
                 <div class="btns-grp" style={{ paddingTop: "2rem" }}>
                 <a
                     class="theme-btn brd-rd30"
-                    href="mailto:info@rayanfiresystems.com"
+                    href="mailto:rayanfiresystems@gmail.com"
                     title="Email us"
                   >
                     Contact Now
@@ -191,7 +191,7 @@ function Home() {
                 <div class="btns-grp " style={{ paddingTop: "2rem" }}>
                 <a
                     class="theme-btn brd-rd30"
-                    href="mailto:info@rayanfiresystems.com"
+                    href="mailto:rayanfiresystems@gmail.com"
                     title="Email us"
                   >
                     Contact Now
@@ -240,7 +240,7 @@ function Home() {
                       fire systems.
                     </p>
                   </div>
-                  <div class="inner-box clearfix">
+                  {/* <div class="inner-box clearfix">
                     <div class="single-item">
                       <i class="fa-solid fa-fire"></i>
                       <h4>
@@ -254,7 +254,7 @@ function Home() {
                         Don’t play with matches
                       </h4>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <ul class="list-item clearfix">
                     <li>If you are going to use a passage of you need</li>
                     <li>
@@ -267,7 +267,7 @@ function Home() {
                     <h4>
                       <a href="tel: 04952998879" style={{ fontSize: "1rem" }}>
                         {" "}
-                        info@rayanfiresystems.com
+                        rayanfiresystems@gmail.com
                       </a>
                     </h4>
                   </div>
@@ -458,7 +458,7 @@ function Home() {
                       never compromised.
                     </p>
                   </div>
-                  <div class="inner-box clearfix">
+                  {/* <div class="inner-box clearfix">
                     <div class="single-item">
                       <i class="fas fa-check"></i>
                       <h5>Dedicated to Save Lives</h5>
@@ -467,8 +467,8 @@ function Home() {
                       <i class="fas fa-check"></i>
                       <h5>Quick Response</h5>
                     </div>
-                  </div>
-                  <div class="progress-inner">
+                  </div> */}
+                  {/* <div class="progress-inner">
                     <div class="progress-box">
                       <h5>Families Saved</h5>
                       <div class="bar">
@@ -493,7 +493,7 @@ function Home() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

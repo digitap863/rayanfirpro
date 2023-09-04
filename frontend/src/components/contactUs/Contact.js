@@ -78,7 +78,7 @@ function Contact() {
                         <i class="fas fa-envelope theme-clr"></i>{" "}
                         <strong>Email</strong>
                         <a href="#" title="" itemprop="url">
-                        info@rayanfiresystems.com
+                        rayanfiresystems@gmail.com
                         </a>
                       </li>
                       <li>
