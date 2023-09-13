@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import firewaterimg from "../../assets/images/fire-water.jpg";
 import axios from "axios";
-import homeImage from '../../assets/images/homeimage123.jpeg'
+import homeImage from '../../assets/images/homeimage123.jpg'
 
 function Home() {
   const navigate = useNavigate();
@@ -57,7 +57,7 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
   };
 
@@ -102,7 +102,7 @@ function Home() {
             <div
               class="featured-item"
               style={{
-                backgroundImage: "url(assets/images/1.jpg)",
+                backgroundImage: "url(assets/images/second.jpg)",
                 transition: "step-start",
               }}
             >
@@ -114,7 +114,7 @@ function Home() {
               <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span>
+                  Perfect Safety<br/>Solutions
               
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
@@ -137,7 +137,7 @@ function Home() {
             <div
               class="featured-item"
               style={{
-                backgroundImage: "url(assets/images/2.jpg)",
+                backgroundImage: "url(assets/images/first.jpg)",
               }}
             >
               <img
@@ -148,7 +148,7 @@ function Home() {
               <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span>
+                  Perfect Safety Solutions
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -170,7 +170,7 @@ function Home() {
             <div
               class="featured-item"
               style={{
-                backgroundImage: "url(assets/images/3.jpg)",
+                backgroundImage: "url(assets/images/fourth.jpg)",
               }}
             >
               <img
@@ -181,7 +181,7 @@ function Home() {
               <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span>
+                  Perfect Safety <br />Solutions
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -215,7 +215,7 @@ function Home() {
                   </figure>
                   <div class="image-content">
                     <h2>10</h2>
-                    <h5>Years of experience in this field</h5>
+                    <h5>Years of Experience in this field</h5>
                   </div>
                 </div>
               </div>
@@ -608,7 +608,7 @@ function Home() {
                         <h6 itemprop="headline">Fire Emergencies</h6>
                       </li>
                       <li>
-                        <span class="counter">50</span>
+                        <span class="counter">10</span>
                         <h6 itemprop="headline">Year of Experience</h6>
                       </li>
                     </ul>

@@ -142,6 +142,8 @@ ul, li {
 }
 .page-title .content-box .title h1 {
     position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2.5px;
     font-size: 60px;
     line-height: 65px;
     color: #fff;
@@ -179,7 +181,7 @@ ul, li {
 .page-title:before {
     position: absolute;
     content: '';
-    background: #fff;
+    background: #222222;
     width: 50%;
     height: 166px;
     left: 0px;
@@ -190,7 +192,7 @@ ul, li {
 .page-title:after {
     position: absolute;
     content: '';
-    background: #fff;
+    background: #222222;
     width: calc(50% + 1px);
     height: 166px;
     right: 0px;
@@ -401,6 +403,7 @@ ul, li {
 }
 .service-details-content .inner-box .text p {
     margin-bottom: 34px;
+    margin-top: 2rem;
 }
 p {
     position: relative;
@@ -433,7 +436,8 @@ p {
     margin-bottom: 35px;
 }
 .service-details-content .inner-box h4 {
-    color: #f01313;
+    margin-top: 2rem;
+    color: white;
 }
 .service-details-content .inner-box .two-column .list li {
     position: relative;
@@ -457,7 +461,7 @@ ul, li {
 .service-sidebar .categori-widget {
     position: relative;
     display: block;
-    background: #f5f0f0;
+    background: #222222;
     padding: 41px 50px 50px 50px;
     margin-bottom: 30px;
 }
@@ -470,6 +474,7 @@ element.style {
     margin-bottom: 30px;
 }
 .default-sidebar .widget-title h4 {
+    color: white;
     position: relative;
     display: inline-block;
     font-size: 20px;
