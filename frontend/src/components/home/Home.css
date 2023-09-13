@@ -1,11 +1,15 @@
 
-
+body{
+  background-color: #222222;
+}
 .card {
     width: 350px;
     min-height: 25rem;
     max-height: 25rem;
     overflow: hidden;
+    border: none;
     position: relative;
+    border-radius: 0;
   }
   .card .main-content {
     width: 100%;
@@ -43,6 +47,7 @@
     margin: 2rem;
     letter-spacing: 1px;
     line-height: 1.75rem;
+    color: #000000;
   }
   .card .overlay-content p span {
     display: block;

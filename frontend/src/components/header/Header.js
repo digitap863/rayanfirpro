@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
-import logo from "../../assets/rayan.jpeg";
-import mLogo from "../../assets/rayan.jpeg";
+import logo from "../../assets/rayan.png";
+import mLogo from "../../assets/rayan.png";
 import insta from "../../assets/instaIcon.svg";
 import instaWhite from "../../assets/instagram-white.svg";
 import close from "../../assets/cross.svg";
@@ -21,7 +21,7 @@ function Header() {
                     borderBottom: "1px solid rgba(0,0,0,0.2)",
                 }}
             >
-                <div style={{ width: "90%", display: "flex", flexDirection: "column", rowGap: "1rem" }}>
+                {/* <div style={{ width: "90%", display: "flex", flexDirection: "column", rowGap: "1rem" }}>
                     <div
                         className="topBar"
                         style={{ display: "flex", justifyContent: "space-between", alignItems: "center", height: "3rem" }}
@@ -33,13 +33,13 @@ function Header() {
                             <i class="fab fa-facebook"></i>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div
                 className="fixedHeader"
-                style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "6rem" }}
+                style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "6rem",backgroundColor:"#222222 " }}
             >
-                <div style={{ width: "90%", display: "flex", flexDirection: "column", rowGap: "1rem" }}>
+                <div style={{ width: "100%", display: "flex", flexDirection: "column", rowGap: "1rem",paddingRight:'5rem' }}>
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                         <div
                             className="logo"

@@ -71,7 +71,7 @@
     clip-path: polygon(0% 40%, 100% 0%, 100% 0%, 0% 100%, 0% 0%);
 }
 .page-title .pattern-layer:before {
-    background: #cc5e28;
+    background: #f01313;
 }
 .auto-container {
     position: static;
@@ -89,7 +89,7 @@
     clip-path: polygon(0% 0%, 100% 19%, 100% 100%, 175% 100%, 0% 0%);
 }
 .page-title .pattern-layer:after {
-    background: #cc5e28;
+    background: #f01313;
 }
 .page-title .content-box .title {
     position: relative;
@@ -405,7 +405,7 @@ ul, li {
 p {
     position: relative;
     font-family: 'Titillium Web', sans-serif;
-    color: #716868;
+    color: #beb4b4;
     font-weight: 400;
     margin: 0px;
     transition: all 500ms ease;
@@ -433,7 +433,7 @@ p {
     margin-bottom: 35px;
 }
 .service-details-content .inner-box h4 {
-    color: #cc5e28;
+    color: #f01313;
 }
 .service-details-content .inner-box .two-column .list li {
     position: relative;
@@ -523,7 +523,7 @@ element.style {
 }}
 .service-sidebar .categori-widget .categori-list li a.active, .service-sidebar .categori-widget .categori-list li a:hover {
     color: #fff;
-    background-color: #cc5e28;
+    background-color: #f01313;
 }
 .service-sidebar .categori-widget .categori-list li a {
     position: relative;

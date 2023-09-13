@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ae5dcaf.css",
-    "main.js": "/static/js/main.af73de18.js",
+    "main.css": "/static/css/main.6491f8f4.css",
+    "main.js": "/static/js/main.3a82b78a.js",
+    "static/media/rayan.png": "/static/media/rayan.f1d284ec36f7cf304073.png",
     "static/media/fire-water.jpg": "/static/media/fire-water.4c79d2821188287c20ef.jpg",
-    "static/media/rayan.jpeg": "/static/media/rayan.9cc0d69cc8522f25c443.jpeg",
+    "static/media/homeimage123.jpeg": "/static/media/homeimage123.79578faf9ed7cc2cc818.jpeg",
     "index.html": "/index.html",
     "static/media/instaIcon.svg": "/static/media/instaIcon.482d4132535cae9555c2e61f6a121eba.svg",
     "static/media/instagram-white.svg": "/static/media/instagram-white.8d8e9c087754842725dd2a982229bcad.svg",
     "static/media/cross.svg": "/static/media/cross.8aeeb7caff636969c5947e2ed30b91db.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.b52e059ca6671a4381eafe7c02873b76.svg",
-    "main.0ae5dcaf.css.map": "/static/css/main.0ae5dcaf.css.map",
-    "main.af73de18.js.map": "/static/js/main.af73de18.js.map"
+    "main.6491f8f4.css.map": "/static/css/main.6491f8f4.css.map",
+    "main.3a82b78a.js.map": "/static/js/main.3a82b78a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ae5dcaf.css",
-    "static/js/main.af73de18.js"
+    "static/css/main.6491f8f4.css",
+    "static/js/main.3a82b78a.js"
   ]
 }

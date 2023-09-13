@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import firewaterimg from "../../assets/images/fire-water.jpg";
 import axios from "axios";
+import homeImage from '../../assets/images/homeimage123.jpeg'
 
 function Home() {
   const navigate = useNavigate();
@@ -56,7 +57,7 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 3000,
   };
 
@@ -110,11 +111,11 @@ function Home() {
                 src="/assets/images/Asset2scope.png"
                 alt="mockup-image"
               />
-              <div class="featured-cap" style={{ marginLeft: "9%" }}>
+              <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span> To
-                  Protect Life And Properties
+                  Perfect Safety <span class="theme-clr">Solutions</span>
+              
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -144,11 +145,10 @@ function Home() {
                 src="/assets/images/Asset2scope.png"
                 alt="mockup-image"
               />
-              <div class="featured-cap" style={{ marginLeft: "9%" }}>
+              <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span> To
-                  Protect Life And Properties
+                  Perfect Safety <span class="theme-clr">Solutions</span>
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -178,11 +178,10 @@ function Home() {
                 src="/assets/images/Asset2scope.png"
                 alt="mockup-image"
               />
-              <div class="featured-cap" style={{ marginLeft: "9%" }}>
+              <div class="featured-cap" style={{ marginLeft: "9%",marginTop:"-2rem" }}>
                 {/* <span>Rescue and firefighters are great</span> */}
                 <h2>
-                  Perfect Safety <span class="theme-clr">Solutions</span> To
-                  Protect Life And Properties
+                  Perfect Safety <span class="theme-clr">Solutions</span>
                   {/* <span class="theme-clr">Properties</span> */}
                 </h2>
                 {/* <p>
@@ -210,7 +209,7 @@ function Home() {
                 <div class="image-box">
                   <figure class="image">
                     <img
-                      src="https://ae01.alicdn.com/kf/S8dbc0ea9d85846c39113d6b2e94105d8W.jpg"
+                      src={homeImage}
                       alt=""
                     />
                   </figure>
@@ -280,10 +279,7 @@ function Home() {
 
       <section
         class="service-section centred bg-color-1"
-        style={{
-          backgroundImage:
-            "url(http://azim.commonsupport.com/Firbrigs/assets/images/background/service-bg-1.jpg)",
-        }}
+       
       >
         <div class="bg-layer"></div>
         <div class="container-fluid">
