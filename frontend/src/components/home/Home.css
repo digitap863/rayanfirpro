@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@300&family=Zen+Dots&display=swap');
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@300&family=Zen+Dots&display=swap'); */
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue'), url('../../../public/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url('../../../public/assets/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body{
   background-color: #222222;
 }
