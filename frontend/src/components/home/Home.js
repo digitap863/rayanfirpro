@@ -600,16 +600,16 @@ function Home() {
                         <h6 itemprop="headline"> Years Of Experience</h6>
                       </li>
                       <li>
-                        <span class="counter">2421</span>
-                        <h6 itemprop="headline">Total Projects</h6>
+                        <span class="counter">23</span>
+                        <h6 itemprop="headline">Ongoing Projects</h6>
                       </li>
                       <li>
-                        <span class="counter">275</span>
-                        <h6 itemprop="headline">Fire Emergencies</h6>
+                        <span class="counter">209</span>
+                        <h6 itemprop="headline">Projects Completed</h6>
                       </li>
                       <li>
-                        <span class="counter">10</span>
-                        <h6 itemprop="headline">Year of Experience</h6>
+                        <h5 style={{color:"white"}}><span class="counter" style={{marginRight:"0.5rem"}}>100</span>%</h5>
+                        <h6 itemprop="headline">Quality Assured</h6>
                       </li>
                     </ul>
                   </div>

@@ -73,10 +73,11 @@ function Career() {
                 </div>
               );
             })}
-
           </div>
+            {/* <p style={{float:"right",width:"30%"}}>Share your resume to rayanfiresystems@gmail.com</p> */}
         </div>
       </section>
+      <p style={{fontSize:"1rem",textAlign:"center"}}>Share your resume to rayanfiresystems@gmail.com</p>
     </>
   );
 }

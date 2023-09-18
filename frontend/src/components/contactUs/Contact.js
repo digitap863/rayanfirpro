@@ -77,8 +77,19 @@ function Contact() {
                       <li>
                         <i class="fas fa-envelope theme-clr"></i>{" "}
                         <strong>Email</strong>
-                        <a href="#" title="" itemprop="url">
-                        rayanfiresystems@gmail.com
+                        <a
+                          href="mailto:rayanfiresystems@gmail.com"
+                          title=""
+                          itemprop="url"
+                        >
+                          rayanfiresystems@gmail.com
+                        </a>
+                      </li>
+                      <li>
+                        <i class="fas fa-phone theme-clr"></i>{" "}
+                        <strong>Phone</strong>
+                        <a href="tel:0495-2998879" title="" itemprop="url">
+                          0495-2998879
                         </a>
                       </li>
                       <li>
@@ -89,7 +100,6 @@ function Contact() {
                           AKSHAYA COMPLEX WESTHILL, CALICUT. PIN-673005.
                         </span>
                       </li>
-                   
                     </ul>
                     <div class="scl4">
                       <a
