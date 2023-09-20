@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import emailjs from '@emailjs/browser';
+import swal from 'sweetalert'
 
 function Contact() {
   const navigate = useNavigate();
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_lta38kv', 'template_sm133rm', form.current, 'zX6AuCRX9fqCAY8dH')
+      .then((result) => {
+          console.log(result.text);
+          swal({
+            title: "Thank You!",
+            text: "Your Message is succesfully submitted",
+            button: "ok",
+          });
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <>
       <section
@@ -44,22 +63,22 @@ function Contact() {
                 <div class="col-md-8 col-sm-12 col-lg-8">
                   <div class="cnt-frm">
                     <h4 itemprop="headline">Stay With us</h4>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                       <div class="row">
                         <div class="col-md-12 col-sm-12 col-lg-12">
-                          <input type="text" placeholder="Your Name..." />
+                          <input type="text" placeholder="Your Name..." name="name" />
                         </div>
                         <div class="col-md-12 col-sm-12 col-lg-12">
-                          <input type="email" placeholder="Email Address" />
+                          <input type="email" placeholder="Email Address" name="email"/>
                         </div>
                         <div class="col-md-12 col-sm-12 col-lg-12">
-                          <input
+                          {/* <input
                             type="text"
                             placeholder="Add Subject Here..."
-                          />
+                          /> */}
                         </div>
                         <div class="col-md-12 col-sm-12 col-lg-12">
-                          <textarea placeholder="Your Message Goes Here"></textarea>
+                          <textarea placeholder="Your Message Goes Here" name="message"></textarea>
                         </div>
                         <div class="col-md-12 col-sm-12 col-lg-12">
                           <button type="submit" class="theme-btn brd-rd5">
